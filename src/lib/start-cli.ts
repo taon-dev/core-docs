@@ -11,6 +11,7 @@ export async function startCli(
   console.log('Hello from cli');
   console.log({ argsv });
   process.exit(0); // comment this to use BaseStartConfig and class based cli
+  //#endregion
 }
 
 export default startCli;
